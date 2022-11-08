@@ -1,0 +1,73 @@
+{
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.fontFamily": "'MesloLGM Nerd Font'",
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.mouseWheelZoom": true,
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "workbench.enableExperiments": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "editor.guides.indentation": true,
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "window.enableMenuBarMnemonics": false,
+  "telemetry.telemetryLevel": "off",
+  "python.experiments.enabled": false,
+  "jupyter.experiments.enabled": false,
+  "window.title": "🍁️${dirty}${activeEditorShort} 🍁️",
+  "workbench.colorCustomizations": {
+    "[Dracula]": {
+      "editorCursor.foreground": "#ff0000",
+      "editorLineNumber.activeForeground": "#ff00aa",
+      "editorLineNumber.foreground": "#49a1b7cb",
+      "terminalCursor.foreground": "#ff0000",
+      "selection.background": "#58ffe941",
+      "terminal.selectionBackground": "#58ffe941"
+    },
+    "[Andromeda]": {
+      "editorCursor.foreground": "#ff0000",
+      "editorLineNumber.activeForeground": "#ff00aa",
+      "editorLineNumber.foreground": "#49a1b7cb",
+      "terminal.selectionBackground": "#58ffe941"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Dracula]": {
+      "comments": "#ff00bf",
+      "strings": "#00ffdd"
+    }
+  },
+  "window.titleSeparator": "  ↔  ",
+  "update.mode": "manual",
+  "git.autofetch": true,
+  "editor.inlineSuggest.enabled": true,
+  "extensions.autoCheckUpdates": false,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 2,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "extensions.autoUpdate": false,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-18",
+      "path": "/usr/lib/jvm/jdk-18"
+    },
+    {
+      "name": "JavaSE-19",
+      "path": "/home/linuxbrew/.linuxbrew/Cellar/openjdk/19/libexec",
+      "default": true
+    }
+  ],
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "workbench.sideBar.location": "right"
+}
