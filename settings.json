@@ -1,8 +1,8 @@
 {
-  "workbench.colorTheme": "Andromeda",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
-  "editor.fontFamily": "'MesloLGM Nerd Font'",
+  "editor.fontFamily": "'FiraCode Nerd Font'",
   "editor.wordWrap": "on",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -38,10 +38,21 @@
       "editorLineNumber.activeForeground": "#ff00aa",
       "editorLineNumber.foreground": "#49a1b7cb",
       "terminal.selectionBackground": "#58ffe941"
+    },
+    "[Catppuccin Mocha]": {
+      "editorCursor.foreground": "#ff0000",
+      "editorLineNumber.activeForeground": "#ff00aa",
+      "editorLineNumber.foreground": "#49a1b7cb",
+      "terminal.selectionBackground": "#58ffe941",
+      "terminalCursor.foreground": "#9500ff"
     }
   },
   "editor.tokenColorCustomizations": {
     "[Dracula]": {
+      "comments": "#ff00bf",
+      "strings": "#00ffdd"
+    },
+    "[Catppuccin Mocha]": {
       "comments": "#ff00bf",
       "strings": "#00ffdd"
     }
